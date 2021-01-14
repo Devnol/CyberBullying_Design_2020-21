@@ -32,17 +32,26 @@
   
   header {
     background: var(--color-secondary-2-4);
-    width: 100%;
     height: 5%;
-    padding: 8px 4px;
+    padding: 8px 10px 8px 10px;
     border-radius: 16px;
     position: relative;
+    display: inline-flex;
     font-family: sans-serif;
   }
   
   a { 
     color: inherit; 
   }  /*This allows a HTML redirect to have the same color as the text before the redirect, used in the footer. Neat, innit? */
+
+  h1{
+    text-align: center;
+    color: var(--color-primary-2);
+  }
+  h2{
+    text-align: center;
+    color: var(--color-primary-3);
+  }
 
   .headerbutton {
     background: var(--color-secondary-1-3);
