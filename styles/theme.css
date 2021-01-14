@@ -64,9 +64,10 @@
     max-width: 200px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     display: inline-block;
     margin: 2px 1px;
