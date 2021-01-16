@@ -32,8 +32,8 @@
   
   header {
     background: var(--color-secondary-2-4);
-    height: 5%;
     padding: 8px 10px 8px 10px;
+    margin: 8px;
     border-radius: 16px;
     position: relative;
     display: inline-flex;
@@ -45,29 +45,25 @@
     color: inherit; 
   }  /*This allows a HTML redirect to have the same color as the text before the redirect, used in the footer. Neat, innit? */
 
-  h1{
+  h1 {
     text-align: center;
     color: var(--color-primary-2);
   }
-  h2{
+
+  h2 {
     text-align: center;
     color: var(--color-primary-3);
   }
 
-  div{
-    /*padding: 20px;*/
-    /*margin: 4px;*/
+  div {
     vertical-align: middle;
   }
 
-  .body-container {
-    width: 100%;
-    height: 100%;
-  }
- 
   .body-main {
     display: inline-block;
-    width: 80%;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    width: calc(80% - 8px);
   }
   
   .body-sidebar {
@@ -75,8 +71,10 @@
     float: right;
     border-radius: 16px;
     font-size: 140%;
-    width: 20%;
-    height: 100%;
+    width: calc(20% - 8px);
+    margin-bottom: 8px;
+    margin-right: 8px;
+    height: 100vh;
   }
   
     .body-title {
@@ -90,22 +88,18 @@
   .headerbutton {
     background: var(--color-secondary-1-3);
     color: white;
-    transition-duration: 0.4s;
     border-radius: 16px;   
     font-size: 20px;
     height: 32px;
-    min-width: 100px;
-    max-width: 200px;
+    width: 160px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 20px;
     text-align: center;
     vertical-align: middle;
-    text-decoration: none;
     display: inline-block;
     margin: 2px 1px;
-    cursor: pointer;
     transition: all 0.5s;
   }
   
