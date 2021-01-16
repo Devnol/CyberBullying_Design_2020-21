@@ -78,8 +78,18 @@
     .body-title {
       align-self: center;
     }
-
     .body-text {
+      width: calc(40% - 32px);
+      font-size: 20px;
+    }
+    .body-media {
+      width: calc(60% - 32px);
+    }
+    .body-text, .body-media {
+      display: inline-block;
+      margin: 8px;
+      padding: 8px;
+      height: 315px;
       text-align: left;
     }
 
