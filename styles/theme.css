@@ -41,6 +41,7 @@
   }
   
   a { 
+    text-decoration: none;
     color: inherit; 
   }  /*This allows a HTML redirect to have the same color as the text before the redirect, used in the footer. Neat, innit? */
 
@@ -52,6 +53,39 @@
     text-align: center;
     color: var(--color-primary-3);
   }
+
+  div{
+    /*padding: 20px;*/
+    /*margin: 4px;*/
+    vertical-align: middle;
+  }
+
+  .body-container {
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .body-main {
+    display: inline-block;
+    width: 80%;
+  }
+  
+  .body-sidebar {
+    background-color: var(--color-secondary-2-4);
+    float: right;
+    border-radius: 16px;
+    font-size: 140%;
+    width: 20%;
+    height: 100%;
+  }
+  
+    .body-title {
+      align-self: center;
+    }
+
+    .body-text {
+      text-align: left;
+    }
 
   .headerbutton {
     background: var(--color-secondary-1-3);

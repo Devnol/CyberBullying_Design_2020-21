@@ -6,11 +6,27 @@
 	<link rel="stylesheet" type="text/css" href="styles/theme.css">
 </head>
 <body>
-	<!--Add the header and footer as iframes, copy them to the main html file, and self destruct on load-->
+	<!--Add the file as an iframe, copy it to the main html file, and self destruct on load-->
 	<!--Epic sauce: https://css-tricks.com/the-simplest-ways-to-handle-html-includes/ -->
 	<iframe src="src/header.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
-	<h1>ΔΙΑΔΙΚΤΥΑΚΟΣ ΕΚΦΟΒΙΣΜΟΣ</h1>
-	<h2>Μία ιστοσελίδα από τους μαθητές του CGS</h2>
-	
+	<div class="body-container">
+	<div class="body-main">
+		<div class="body-title">
+			<h1>ΔΙΑΔΙΚΤΥΑΚΟΣ ΕΚΦΟΒΙΣΜΟΣ</h1>
+			<h2>Μία ιστοσελίδα από τους μαθητές του CGS</h2>
+		</div>
+		<div class="body-text">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec elit sit amet purus suscipit mattis. Aenean id massa et leo malesuada tristique. Sed risus elit, mattis ut malesuada et, vulputate id massa. Proin placerat magna ut sollicitudin finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis vitae purus semper, rutrum ex ut, pellentesque elit. Aenean et lacus vel ex posuere molestie. Praesent ut molestie nisl, eget auctor ante. Sed nec velit non dolor rutrum placerat. Pellentesque sapien erat, luctus vitae accumsan id, imperdiet et nibh. Vivamus cursus placerat enim, in euismod nunc ornare sed. Vivamus at ligula elementum, molestie nulla sed, porta ante. Ut dictum vel velit eget fermentum. Nulla consectetur ac eros bibendum bibendum. Nunc eu vulputate risus, a aliquam mi.
+			</p>
+			<p>
+				Cras ac sodales odio. Praesent ultricies tortor eu sem cursus ultrices. Integer interdum efficitur felis, ac rhoncus dui rutrum non. Maecenas bibendum, lorem consectetur sollicitudin faucibus, urna urna feugiat erat, sed sodales lorem nisi in massa. Sed non est consequat, luctus leo fermentum, accumsan tellus. Nam urna nulla, tincidunt non maximus eu, accumsan a enim. Fusce dictum scelerisque tortor et rutrum. Integer ultricies nisi ac velit sollicitudin, eget interdum orci ornare. Nulla vehicula justo leo, a fringilla lectus euismod sit amet. Maecenas cursus, nisi sed rhoncus vestibulum, sem dui ullamcorper metus, sed dapibus justo ligula quis augue. 
+			</p>
+		</div>
+		<div class="content"></div>
+	</div>
+	<iframe src="src/links.html" onload="this.before(this.contentDocument.body.children[0]);this.remove()"></iframe>
+	</div>
+
 </body>
 </html>
