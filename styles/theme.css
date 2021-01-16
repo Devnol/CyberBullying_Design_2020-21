@@ -62,7 +62,7 @@
   .body-main {
     display: inline-block;
     padding: 8px;
-    width: calc(80% - 16px);
+    width: calc(75% - 16px);
   }
   
   .body-sidebar {
@@ -70,7 +70,7 @@
     float: right;
     border-radius: 16px;
     font-size: 140%;
-    width: calc(20% - 16px);
+    width: calc(25% - 16px);
     margin: 8px;
     height: 100vh;
   }
